@@ -1,0 +1,15 @@
+{
+  "name": "libsecrets-poc",
+  "version": "1.0.0",
+  "description": "Libsecrets proof of concept for BitWarden.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andreas Backx",
+  "license": "MIT",
+  "dependencies": {
+    "dbus": "^1.0.3",
+    "typescript": "^3.2.4"
+  }
+}
