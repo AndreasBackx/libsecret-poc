@@ -6,7 +6,7 @@ This proof of concept does not work. The current issues/questions that I am faci
 
 - [ ] Find/create a proper Javascript/TypeScript DBUS API.
 
-    Neither dbus-native nor [node-dbus](https://github.com/Shouqun/node-dbus) seem to be actively maintained and they both are not stable enough it seems to be used in production software.
+    Neither [dbus-native](https://github.com/sidorares/dbus-native) nor [node-dbus](https://github.com/Shouqun/node-dbus) seem to be actively maintained and they both are not stable enough it seems to be used in production software.
 
     For how far that I tested I could not get dbus-native to even run because it was saying that [`data` was undefined](https://github.com/sidorares/dbus-native/blob/master/lib/marshall.js#L60). It could just be that I was making a mistake. It is however a very old library and contains no documentation whatsoever.
 
