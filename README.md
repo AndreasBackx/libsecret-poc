@@ -15,3 +15,7 @@ This proof of concept does not work. The current issues/questions that I am faci
     It is imo the best idea to create our own DBus library.
 
 Still not all of the libsecret DBus interfaces are implemented. Though the purpose of this poc was to inspect how to implement the DBus communication. Adding the actual functionality, should "simply" be plugging it into the BitWarden's desktop project.
+
+The current implementation abstracts the interaction of the DBus using decorators. It should make it easy to make changes without knowing how DBus works exactly.
+
+_Note: I am no frontend developer. I simply made this proof of concept because I would really like to see the password manager incorporated more into the Linux system and applications. BitWarden's desktop application is written in TypeScript so it was obvious to use TypeScript for this proof of concept._
