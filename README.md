@@ -1,6 +1,6 @@
-# BitWarden Libsecrets
+# BitWarden Libsecret
 
-This is a proof of concept that shows how I would implement libsecrets' DBUS API [1] into BitWarden. This would allow you to use BitWarden as the sole password manager on your Linux computer. It would remove the need for GNOME keyring and KDE Wallet. At the same time it would allow for native autocompletion in Google Chrome and Firefox without the use of an extension.
+This is a proof of concept that shows how I would implement [libsecret's DBUS API](https://specifications.freedesktop.org/secret-service/index.html) into BitWarden. This would allow you to use BitWarden as the sole password manager on your Linux computer. It would remove the need for GNOME keyring and KDE Wallet. At the same time it would allow for native autocompletion in Google Chrome and Firefox without the use of an extension.
 
 This proof of concept does not work. The current issues/questions that I am facing:
 
